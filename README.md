@@ -178,6 +178,39 @@ The app will be available at `http://localhost:5173`
 
 ---
 
+## 🚀 Deploy to Vercel
+
+### One-Click Deploy
+
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/YOUR_USERNAME/hr-workflow-designer)
+
+### Manual Deployment
+
+1. **Push to GitHub**
+   ```bash
+   git init
+   git add .
+   git commit -m "Initial commit"
+   git branch -M main
+   git remote add origin https://github.com/YOUR_USERNAME/hr-workflow-designer.git
+   git push -u origin main
+   ```
+
+2. **Import to Vercel**
+   - Go to [vercel.com/new](https://vercel.com/new)
+   - Import your GitHub repository
+   - Vercel auto-detects Vite settings
+   - Click **Deploy**
+
+3. **Environment** (auto-configured)
+   - Framework Preset: `Vite`
+   - Build Command: `npm run build`
+   - Output Directory: `dist`
+
+The app includes a `vercel.json` for SPA routing. No additional configuration needed!
+
+---
+
 ## 🔌 Mock API Endpoints
 
 ### GET `/automations`

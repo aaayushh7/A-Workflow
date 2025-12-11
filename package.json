@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "npx msw init ./public --save && vite build",
     "preview": "vite preview",
     "msw:init": "npx msw init ./public --save",
     "start": "vite"

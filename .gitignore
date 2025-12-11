@@ -46,6 +46,6 @@ coverage/
 # Vite
 vite.config.ts.timestamp-*
 
-# MSW
-public/mockServiceWorker.js
+# MSW - Keep mockServiceWorker.js for deployment
+# public/mockServiceWorker.js
 
